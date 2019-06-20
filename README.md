@@ -11,3 +11,4 @@ To execute the program:
 $ gcc max-min-avg.c -o thread -lpthread
 $ ./thread 42 56 89 10
 ```
+![max-min-avg.c execution](https://i.imgur.com/R0mxFCl.gif)
