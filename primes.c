@@ -25,8 +25,7 @@ void *primes_thread(void *arg){
     printf("\n");
 }
 
-main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]){
     if (argc != 2){
         printf("%s: Incorrect number of arguments\n", argv[0]);
 		printf("Example of use: %s 15 \n", argv[0]);
