@@ -43,8 +43,7 @@ void *max_thread(void *arg){
     }
 }
 
-main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]){
     if (argc <=1){
         printf("%s: Incorrect number of arguments\n", argv[0]);
 		printf("Example of use: %s 42 56 89 10 \n", argv[0]);
