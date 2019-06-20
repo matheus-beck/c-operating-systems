@@ -3,7 +3,7 @@ Multithreaded programming examples using C. Developed at MATA58 - OPERATING SYST
 
 # max-min-avg.c
 
-This program will receive a list of numbers on the command line, and then create three separate threads. One of the threads will determine the average of the numbers, the second thread will determine the maximum value, and the third thread will determine the minimum value.
+This program will receive a list of numbers on the command line, and then create three separate threads. One of the threads will determine the average of the numbers, the second thread will determine the minimum value, and the third thread will determine the maximum value.
 
 To execute the program:
 
