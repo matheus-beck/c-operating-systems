@@ -22,6 +22,7 @@ void *primes_thread(void *arg){
         }
         if (fact==2) printf("%d " ,i);
     }
+    printf("\n");
 }
 
 main(int argc, char *argv[])
