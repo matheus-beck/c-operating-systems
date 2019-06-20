@@ -15,9 +15,9 @@ void *primes_thread(void *arg){
     int *myNumber = (int *) arg;
     
     int i, j, fact;
-    for(i=1; i<=myNumber; i++){
+    for(i=1; i<=*myNumber; i++){
         fact=0;
-        for(j=1; j<=myNumber; j++){
+        for(j=1; j<=*myNumber; j++){
             if(i%j==0) fact++;
         }
         if (fact==2) printf("%d " ,i);
@@ -38,7 +38,7 @@ main(int argc, char *argv[])
     int t1;
  
     // Create thread to execute appropriate function:
-    t1 = pthread_create(&thread1, NULL, (void *) primes_thread, (void*)myNumber);
+    t1 = pthread_create(&thread1, NULL, (void *) primes_thread, &myNumber);
  
     // Wait till thread complete:
     pthread_join(thread1, NULL);
