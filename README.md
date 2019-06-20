@@ -23,3 +23,4 @@ To execute the program:
 $ gcc primes.c -o thread -lpthread
 $ ./thread 15
 ```
+![primes.c execution](https://i.imgur.com/WgXTiW7.gif)
