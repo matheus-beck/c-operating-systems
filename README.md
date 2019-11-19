@@ -9,3 +9,7 @@ C program that simulates Linux shell using system calls and error verification.
 
 #### Multithreaded Programming
 Multithreaded programming examples using C.
+
+---
+
+Made with ❤️ and ☕ by Matheus Beck :wave: [Get in touch!](https://www.linkedin.com/in/matheus-beck/)
